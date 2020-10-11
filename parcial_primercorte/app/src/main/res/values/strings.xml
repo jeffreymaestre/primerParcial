@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">parcial_primercorte</string>
+    <string name="registrar_actividad">Registrar actividad</string>
+    <string name="porcentaje">Porcentaje</string>
+    <string name="porcentaje_del_corte">porcentaje del corte</string>
+    <string name="materia">materia</string>
+    <string name="corte">Corte</string>
+    <string name="nombre">Nombre</string>
+    <string name="registro_de_actividad">Registro de actividad</string>
+    <string name="agregar_materia">Agregar materia</string>
+    <string name="registro_de_materia">Registro de materia</string>
+</resources>

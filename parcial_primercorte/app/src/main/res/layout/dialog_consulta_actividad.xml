@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewAdvertenciaCuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:text="actividad" />
+
+        <EditText
+            android:id="@+id/edTxt_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="14"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edTxt_porcentaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="14"
+            android:hint="porcentaje"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edTxt_nota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="14"
+            android:hint="nota"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="18sp" />
+
+</LinearLayout>
